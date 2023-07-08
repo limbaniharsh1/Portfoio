@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, rgba(81,164,162,1) 0%, rgba(93,176,144,1) 42%, rgba(120,203,111,1) 100%);
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  font-family: 'Poppins', sans-serif;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.box{
+  height: 550px;
+  width: 85%;
+  /* background-color: white; */
+  /* border: white 1px solid; */
+  border-radius: 5px;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+/* ----- header ----- */
+
+.header{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header .top,.header .bottom{
+  background-color: white;
+  height: 25%;
+  width: 75px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.header .top div,.header .bottom div{
+  cursor: pointer;
+}
+
+.header .bottom{
+  height: 68%;
+  font-size: 12px;
+  text-transform: capitalize;
+  padding: 0 10px;
+}
+.header .bottom div{
+  border-bottom: 1px solid rgba(133, 131, 131, 0.4);
+}
+.header .icon{
+  transition: all 0.5s;
+  
+}
+.header .icon:hover{
+  color: #78CC6D;
+}
+
+/* -----  person ----- */
+
+.person{
+  height: 100%;
+  width: 470px;
+  background-color: white;
+  margin-left: 50px;
+  border-radius: 5px;
+  /* box-shadow: #78cc6d4a -20px -20px 1px; */
+  transform: scale(1.1);
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: rgba(81, 80, 80, 0.235) 10px 10px 10px;
+}
+
+.person-img{
+  height: 65%;
+  width: 100%;
+  padding: 10px 32px;
+  display: flex;
+  justify-content: center;
+}
+.person-img .img{
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  align-self: center;
+}
+.person-img .img img{
+  /* background-color: #61dafb; */
+  height: 250px;
+  /* width: 100%; */
+  border-radius: 100%;
+}
+.person-details{
+  height: 35%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.person-details .icon{
+  margin: 21px 6px;
+}
+.person-details h2{
+  font-weight: 500;
+  font-size: 24px;
+}
+.person-details p{
+  font-size: 12px;
+  color: #78CC6D;
+}
+.bottom-person{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  /* height: 0px; */
+  width: 94%;
+}
+.bottom-person div{
+  border: 1px solid rgba(133, 131, 131, 0.37);
+  padding: 12px 0px;
+  width: 50%;
+}
+
+/* -----  details  ----- */
+
+.details{
+  height: 100%;
+  width: 55%;
+  background-color: white;
+}
