@@ -1,10 +1,10 @@
 import React from 'react'
-import About from './AllDetails/About'
+import { Outlet } from 'react-router-dom'
 
 function Details() {
   return (
     <div className='details'>
-      <About/>
+      <Outlet/>
     </div>
   )
 }

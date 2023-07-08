@@ -1,16 +1,10 @@
 import './App.css';
-import Details from './Components/Details';
-import Header from './Components/Header';
-import Person from './Components/Person';
+import AllRoutes from './Components/AllRoutes';
 
 function App() {
   return (
-    <div className="App">
-      <div className="box">
-        <Header/>
-        <Person/>
-        <Details/>
-      </div>
+    <div>
+      <AllRoutes/>
     </div>
   );
 }
