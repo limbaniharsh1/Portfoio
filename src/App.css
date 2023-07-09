@@ -278,3 +278,7 @@
 .justify-content-between{
   justify-content: space-between;
 }
+.works-img{
+  height: 80%;
+  width: 80%;
+}
