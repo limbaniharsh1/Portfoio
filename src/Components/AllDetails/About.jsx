@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import AboutDetails from "./AboutDetails";
+import { BrushFill, CodeSlash } from "react-bootstrap-icons";
 
 function About() {
   return (
@@ -39,6 +40,26 @@ function About() {
         </div>
       </div>
       <h2 className="text-left f-text border-b title p-t m-t">my services</h2>
+      <div className="row border-b">
+        <div className="w-50">
+          <div className="w-100 p-t m-t p-l p-r border-r">
+            <div className="i-box">
+              <CodeSlash color="white" size='21px'/>
+            </div>
+              <h3 className="semi-title">Web Development</h3>
+              <p className="p p-t">Modern and mobile-ready website that will help you reach all of your marketing.</p>
+          </div>
+        </div>
+        <div className="w-50">
+          <div className="w-100 p-t m-t p-l p-r">
+            <div className="i-box">
+              <BrushFill color="white" size='21px'/>
+            </div>
+              <h3 className="semi-title">app designing</h3>
+              <p className="p p-t">attractive and modern design for app , using photoshop , figma for ios and android</p>
+          </div>
+        </div>
+      </div>
     </motion.div>
   );
 }

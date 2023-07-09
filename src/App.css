@@ -35,10 +35,18 @@
 .port-p{
   color: #767575;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+}
+.p{
+  color: #767575;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 .link-color{
   color: #323232;
+}
+.i{
+  color: #78CC6D;
 }
 
 .border-b{
@@ -63,6 +71,9 @@
 .p-r{
   padding-right: 15px;
 }
+.p-l{
+  padding-left: 15px;
+}
 .m-t{
   margin-top: 15px;
 }
@@ -82,6 +93,9 @@
 
 .text-left{
   text-align: left;
+}
+.text-right{
+  text-align: right;
 }
 .back-color{
   background-color: #78CC6D;
@@ -215,6 +229,10 @@
 .title{
   font-size: 2rem;
 }
+.semi-title{
+  font-size: 1.8rem;
+  font-weight: 500;
+}
 .back{
   height: 100%;
   width: 100%;
@@ -222,4 +240,31 @@
   border-radius: 5px;
   padding: 42px;
   overflow-y: scroll;
+}
+.i-box{
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin: 12px auto;
+  display: flex;
+  border-radius: 50%;
+  background-color: #78CC6D;
+}
+
+.resume .i{
+  display: block;
+  margin-left: 0;
+}
+.year{
+  font-size: 1.2rem;
+  color: #75747490;
+  font-weight: 400;
+  display: inline-block;
+  border: 1px solid #75747490;
+  /* text-align: end !important; */
+}
+.text-center{
+  text-align: center;
 }
