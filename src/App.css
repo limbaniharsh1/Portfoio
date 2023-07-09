@@ -3,6 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-size: 10px;
 }
 .App {
   text-align: center;
@@ -12,35 +13,66 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  transition: all 0.5s;
   font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
 }
 .row{
   display: flex;
   flex-wrap: wrap;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.w-50{
+  width: 50%;
 }
-
-.App-link {
-  color: #61dafb;
+.w-100{
+  width: 100%;
 }
-
+.port-p::first-line{
+  color: #646464;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.port-p{
+  color: #767575;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
 .link-color{
   color: #323232;
+}
+
+.border-b{
+  border-bottom: 1px solid #65656546;
+  padding-bottom: 12px;
+}
+.border-t{
+  border-top: 1px solid #65656546;
+}
+.border-l{
+  border-left: 1px solid #65656546;
+}
+.border-r{
+  border-right: 1px solid #65656546;
+}
+.p-t{
+  padding-top: 15px;
+}
+.p-r{
+  padding-right: 15px;
+}
+.f-text::first-letter{
+  color: #78CC6D;
 }
 
 .box{
   height: 550px;
   width: 85%;
-  /* background-color: white; */
-  /* border: white 1px solid; */
   border-radius: 5px;
   display: flex;
-  /* flex-wrap: wrap; */
+}
+
+.text-left{
+  text-align: left;
 }
 
 /* ----- header ----- */
@@ -164,11 +196,15 @@
 .details{
   height: 100%;
   width: 65%;
-  /* background-color: white; */
+}
+.title{
+  font-size: 2rem;
 }
 .back{
   height: 100%;
   width: 100%;
   background-color: white;
   border-radius: 5px;
+  padding: 42px;
+  overflow-y: scroll;
 }
