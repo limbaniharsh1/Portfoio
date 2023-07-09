@@ -268,3 +268,13 @@
 .text-center{
   text-align: center;
 }
+.lang-main{
+  height: 12px;
+  width: 100%;
+  background-color: #7a7a7a5d;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
