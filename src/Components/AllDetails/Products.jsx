@@ -17,7 +17,8 @@ function Products() {
     }}
     exit={{x:-200}}
     >
-      <h2>products</h2>
+      <h2 className="text-left f-text border-b title m-b">products</h2>
+      <h3 className='semi-title'>products currently not available ☺</h3>
     </motion.div>
   )
 }
