@@ -163,6 +163,12 @@
 
 .details{
   height: 100%;
-  width: 55%;
+  width: 65%;
+  /* background-color: white; */
+}
+.back{
+  height: 100%;
+  width: 100%;
   background-color: white;
+  border-radius: 5px;
 }
