@@ -1,6 +1,8 @@
 import React from "react";
 import { Download, Github, Linkedin, Telephone } from "react-bootstrap-icons";
+import { Link } from "react-router-dom";
 import TypewriterComponent from "typewriter-effect";
+import {cv} from './Screenshot.png'
 
 function Person() {
   return (
@@ -28,8 +30,8 @@ function Person() {
             />
           </p>
           <div>
-            <Github className="icon" />
-            <Linkedin className="icon" />
+            <a href="https://www.linkedin.com/in/harsh-limbani-b9475a228/" target="blank"> <Linkedin className="icon" /></a>
+            <a href="https://github.com/limbaniharsh1" target="blank"><Github className="icon" /></a>
           </div>
         </div>
         <div className="bottom-person">
@@ -37,7 +39,9 @@ function Person() {
             download_cv <Download className="mx-3" />
           </div>
           <div className="contect">
-            contect_me <Telephone className="mx-3" />
+            <Link to='/contact' className="link">
+              contect_me <Telephone className="mx-3" />
+            </Link>
           </div>
         </div>
       </div>
