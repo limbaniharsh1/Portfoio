@@ -18,7 +18,6 @@ function Person() {
       <div className="person-details">
         <div>
           <h2>Harsh limbani</h2>
-          {/* <p>front end developer</p> */}
           <p>
             <TypewriterComponent
               options={{

@@ -1,7 +1,7 @@
 import React from "react";
 
 function Work_List(props) {
-  return (
+  return(
     <div className="border-b m-t p-t">
       <h3 className="semi-title m-b">{props.name}</h3>
       <a href={props.link} target="blank">
