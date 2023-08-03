@@ -7,6 +7,7 @@ import Details from './Components/Details';
 
 function Main() {
   return (
+    // animation left
     <div className='App'>
       <div className="box">
         <Header/>
