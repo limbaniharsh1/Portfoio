@@ -6,20 +6,32 @@ import git from './git.png'
 import Work_List from './Work_List';
 
 function Works() {
+
+  const containerVarient = {
+    hidden:{
+      opacity:0,
+      transition:0.5,
+      x:"-50vh"
+    },
+    visible:{
+      opacity:1,
+      x:"0vh",
+      transition:{duration:1}
+    },
+    exit:{
+      x:"-10vw",
+      opacity:0,
+      transition:{ease:"easeInOut"}
+    }
+  }
+
   return (
     <motion.div
     className="back"
-    initial={{ x: -200 }}
-    animate={{ x: 0 }}
-    transition={{
-      type: "spring",
-      stiffness: 300,
-      x: 100,
-      ease: "linear",
-      duration: 0.3,
-      x: { duration: 0.5 },
-    }}
-    exit={{x:-200}}
+    variants={containerVarient}
+    initial="hidden"
+    animate="visible"
+    exit="exit"
     >
       <h2 className="text-left f-text border-b title">works</h2>
       <div>

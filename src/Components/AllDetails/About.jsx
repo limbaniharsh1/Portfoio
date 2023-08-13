@@ -4,20 +4,40 @@ import AboutDetails from "./AboutDetails";
 import { BrushFill, CodeSlash } from "react-bootstrap-icons";
 
 function About() {
+
+  const containerVarient = {
+    hidden:{
+      opacity:0,
+      x:"-50vh",
+      transition:{delay:1.5,duration:1.5}
+    },
+    visible:{
+      opacity:1,
+      x:"0vh",
+      transition:{duration:1}
+    },
+    exit:{
+      x:"-10vw",
+      opacity:0,
+      transition:{ease:"easeInOut"}
+    }
+  }
+
   return (
     <motion.div
       className="back"
-      initial={{ x: -200 }}
-      animate={{ x: 0 }}
-      transition={{
-        type: "spring",
-        stiffness: 300,
-        x: 100,
-        ease: "linear",
-        duration: 0.3,
-        x: { duration: 0.5 },
-      }}
-      exit={{ x: -100 }}
+      variants={containerVarient}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+      // transition={{
+      //   type: "spring",
+      //   stiffness: 300,
+      //   x: 100,
+      //   ease: "linear",
+      //   duration: 0.3,
+      //   x: { duration: 0.5 },
+      // }}
     >
       <h2 className="text-left f-text border-b title p-b">about me</h2>
       <div className="row">

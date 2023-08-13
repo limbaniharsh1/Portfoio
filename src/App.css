@@ -93,6 +93,7 @@ a{
   width: 85%;
   border-radius: 5px;
   display: flex;
+  overflow: hidden;
 }
 
 .text-left{

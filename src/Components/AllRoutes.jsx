@@ -13,8 +13,8 @@ function AllRoutes() {
   let location = useLocation();
   return (
     <div>
-      <AnimatePresence>
-        <Routes>
+      <AnimatePresence> 
+        <Routes location={location} key={location.key}>
           <Route path="/" element={<Main />}>
             <Route path="/" element={<About />} />
             <Route path="/resume" element={<Resume />} />
