@@ -41,27 +41,27 @@ function About() {
     >
       <h2 className="text-left f-text border-b title p-b">about me</h2>
       <div className="row">
-        <div className="w-50">
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
           <div className="w-100 p-r">
-            <p className="text-left port-p p-t">
+            <p className="text-left port-p p-t" style={{fontSize:'1.2rem'}}>
               Hello! I’m harsh limbani .<br /> Web designer from INDIA, Gujarat.
               I am fresher in web site design and building, also I am good at
               designing. I love to talk with you about our unique.
             </p>
           </div>
         </div>
-        <div className="w-50">
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
           <div className="w-100 border-l">
             <AboutDetails left={'age'} right={'19'}/>
             <AboutDetails left={'residence'} right={'india'}/>
             <AboutDetails left={'freelance'} right={'not available'}/>
-            <AboutDetails left={'address'} right={'katargam,surat,gujarat'}/>
+            <AboutDetails left={'address'} right={`katargam,surat`}/>
           </div>
         </div>
       </div>
       <h2 className="text-left f-text border-b title p-t m-t">my services</h2>
       <div className="row border-b">
-        <div className="w-50">
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
           <div className="w-100 p-t m-t p-l p-r border-r">
             <div className="i-box">
               <CodeSlash color="white" size='21px'/>
@@ -70,7 +70,7 @@ function About() {
               <p className="p p-t">Modern and mobile-ready website that will help you reach all of your marketing.</p>
           </div>
         </div>
-        <div className="w-50">
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
           <div className="w-100 p-t m-t p-l p-r">
             <div className="i-box">
               <BrushFill color="white" size='21px'/>

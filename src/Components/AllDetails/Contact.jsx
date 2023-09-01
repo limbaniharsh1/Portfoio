@@ -40,16 +40,16 @@ function Contact() {
       ></iframe>
 
       <div className="row m-t p-t">
-        <div className="w-50">
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
           <div className="w-100">
-            <AboutDetails left={"address"} right={"katargam,surat,gujarat"} />
-            <AboutDetails left={"phone"} right={"+91 9875168369"} />
+            <AboutDetails left={"address"} right={"katargam,surat,gujarat"} cls='center'/>
+            <AboutDetails left={"phone"} right={"+91 9875168369"} cls='center'/>
           </div>
         </div>
-        <div className="w-50">
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
           <div className="w-100">
-            <AboutDetails left={"e-mail"} right={"limbaniharsh1@gmail.com"} />
-            <AboutDetails left={"freelance"} right={"not available"} />
+            <AboutDetails left={"e-mail"} right={"limbaniharsh1@gmail.com"} cls='center'/>
+            <AboutDetails left={"freelance"} right={"not available"} cls='center'/>
           </div>
         </div>
       </div>

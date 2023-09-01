@@ -7,7 +7,7 @@ function Work_List(props) {
       <a href={props.link} target="blank">
         <img src={props.img} alt="img" className="works-img" />
       </a>
-      <p className="p m-t p-t">{props.des}</p>
+      <p className="p m-t p-t" style={{fontSize:'1.2rem'}}>{props.des}</p>
     </div>
   );
 }

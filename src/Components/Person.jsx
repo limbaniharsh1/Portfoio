@@ -2,7 +2,7 @@ import React from "react";
 import { Download, Github, Linkedin, Telephone } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
 import TypewriterComponent from "typewriter-effect";
-import {cv} from './Screenshot.png'
+import port from './AllDetails/port.png'
 
 function Person() {
   return (
@@ -35,7 +35,7 @@ function Person() {
         </div>
         <div className="bottom-person">
           <div className="download">
-            <a href="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg" download=''>download_cv <Download className="mx-3" /></a>
+            <a href={port} download=''>download_cv <Download className="mx-3" /></a>
           </div>
           <div className="contect">
             <Link to='/contact' className="link">
