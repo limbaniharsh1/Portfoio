@@ -35,7 +35,7 @@ function Person() {
         </div>
         <div className="bottom-person">
           <div className="download">
-            <a href={port} download=''>download <Download className="mx-3" /></a>
+            <a href={port} download=''>download_cv <Download className="mx-3" /></a>
           </div>
           <div className="contect">
             <Link to='/contact' className="link">
